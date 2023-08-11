@@ -4,7 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Cria uma raiz de renderização para a aplicação React
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Renderiza a aplicação dentro da raiz de renderização
 root.render(
   <React.StrictMode>
     <App />

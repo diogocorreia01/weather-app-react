@@ -1,13 +1,11 @@
+/* Ficheiro de estilos para o index.js */
+
 body {
-  margin: 0;
+  margin: 0; /* Define as margens do corpo como 0 para remover o espaço em branco em torno do corpo */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; /* Define a família de fontes a ser usada para o corpo */
+  -webkit-font-smoothing: antialiased; /* Aplica suavização de fonte para melhorar a legibilidade */
+  -moz-osx-font-smoothing: grayscale; /* Aplica suavização de fonte para melhorar a legibilidade no macOs */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

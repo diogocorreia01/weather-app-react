@@ -1,0 +1,248 @@
+.header {
+  display: flex; /* Define o elemento como um flex container */
+  flex-direction: column; /* Define a direção dos itens como vertical (coluna) */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  padding: 20px; /* Adiciona espaçamento interno de 20px */
+  font-size: 26px; /* Define o tamanho da fonte como 26px */
+  padding-bottom: 0; /* Remove o espaçamento inferior */
+  .logoutButton {
+      margin-left: 500px; /* Adiciona margem à esquerda de 500px */
+      position: absolute; /* Define a posição como absoluta */
+      margin-top: 40px; /* Adiciona margem superior de 40px */
+      width: 10%; /* Define a largura como 50% */
+      padding: 10px; /* Adiciona espaçamento interno de 10px */
+      border: none; /* Remove a borda */
+      background-color: bisque; /* Define a cor de fundo como cinzento claro */
+      color: black; /* Define a cor do texto como preto */
+      font-weight: bold; /* Define a espessura da fonte como negrito */
+      cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+  }
+}
+
+.weather {
+  display: flex; /* Define o elemento como um flex container */
+  flex-direction: column; /* Define a direção dos itens como vertical (coluna) */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  padding: 20px; /* Adiciona espaçamento interno de 20px */
+  padding-top: 0; /* Remove o espaçamento superior */
+  font-size: 16px; /* Define o tamanho da fonte como 16px */
+
+  .citySearch {
+    display: flex; /* Define o elemento como um flex container */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column; /* Define a direção dos itens como vertical (coluna) */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background: lavender; /* Define a cor de fundo como lavanda */
+    padding: 20px; /* Adiciona espaçamento interno de 20px */
+    height: 80px; /* Define a altura como 80px */
+
+    input {
+      border: none; /* Remove a borda */
+      border-bottom: 1px solid lavender; /* Adiciona uma borda inferior de 1px sólida */
+      padding: 10px 5px; /* Adiciona espaçamento interno de 10px vertical e 5px horizontal */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+      margin-bottom: 10px; /* Adiciona margem inferior de 10px */
+      width: 350px; /* Define a largura como 350px */
+      text-align: center; /* Centraliza o texto horizontalmente */
+    }
+
+    button {
+      width: 50%; /* Define a largura como 50% */
+      padding: 10px; /* Adiciona espaçamento interno de 10px */
+      border: none; /* Remove a borda */
+      background-color: lightgray; /* Define a cor de fundo como cinzento claro */
+      color: black; /* Define a cor do texto como preto */
+      font-weight: bold; /* Define a espessura da fonte como negrito */
+      cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+    }
+  }
+
+  .weatherData {
+    display: flex; /* Define o elemento como um flex container */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    flex-direction: column; /* Define a direção dos itens como vertical (coluna) */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background: lavender; /* Define a cor de fundo como lavanda */
+    padding: 20px; /* Adiciona espaçamento interno de 20px */
+    height: 80px; /* Define a altura como 80px */
+    margin-top: 40px; /* Adiciona margem superior de 40px */
+    width: 500px; /* Define a largura como 500px */
+    height: 330px; /* Define a altura como 300px */
+
+    .favButton {
+      width: 30%; /* Define a largura como 50% */
+      padding: 10px; /* Adiciona espaçamento interno de 10px */
+      border: none; /* Remove a borda */
+      background-color: lightgreen; /* Define a cor de fundo como cinzento claro */
+      color: black; /* Define a cor do texto como preto */
+      font-weight: bold; /* Define a espessura da fonte como negrito */
+      cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+    }
+
+    .countryData {
+      display: flex; /* Define o elemento como um flex container */
+      align-items: center; /* Centraliza os itens horizontalmente */
+      flex-direction: row; /* Define a direção dos itens como horizontal (linha) */
+      justify-content: center; /* Centraliza os itens horizontalmente */
+      gap: 25px; /* Define o espaçamento entre os itens como 25px */
+
+      .countryFlag {
+        width: 32px; /* Define a largura como 32px */
+        height: 32px; /* Define a altura como 32px */
+      }
+    }
+
+    img {
+      width: 100px; /* Define a largura como 100px */
+      margin-top: 15px; /* Adiciona margem superior de 15px */
+    }
+  }
+}
+
+.login {
+  display: flex; /* Define o elemento como um flex container */
+  flex-direction: column; /* Define a direção dos itens como vertical (coluna) */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  padding: 20px; /* Adiciona espaçamento interno de 20px */
+  padding-top: 0; /* Remove o espaçamento superior */
+  font-size: 22px; /* Define o tamanho da fonte como 16px */
+  margin-top: 230px; /* Adiciona margem superior de 230px */
+
+  .loginForm {
+    display: flex; /* Define o elemento como um container flexível */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    padding: 10px; /* Adiciona espaçamento interno de 10px */
+    gap: 25px; /* Define o espaçamento vertical entre os itens como 25px */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background: lavender; /* Define a cor de fundo como lavanda */
+    width: 380px; /* Define a largura como 380px */
+    height: 210px; /* Define a altura como 210px */
+    justify-content: center; /* Centraliza os itens verticalmente */
+
+    .email {
+      display: flex; /* Define o elemento como um container flexível */
+      gap: 10px; /* Define o espaçamento entre os elementos como 10px */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+      font-weight: 500; /* Define a espessura da fonte como 500 */
+    }
+
+    .password {
+      display: flex; /* Define o elemento como um container flexível */
+      gap: 10px; /* Define o espaçamento entre os elementos como 10px */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+      font-weight: 500; /* Define a espessura da fonte como 500 */
+    }
+
+    .loginButton {
+      width: 50%; /* Define a largura como 50% */
+      padding: 10px; /* Adiciona espaçamento interno de 10px */
+      border: none; /* Remove a borda */
+      background-color: lightgray; /* Define a cor de fundo como cinzento claro */
+      color: black; /* Define a cor do texto como preto */
+      font-weight: bold; /* Define a espessura da fonte como negrito */
+      cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+    }
+  }
+}
+
+.register {
+  display: flex; /* Define o elemento como um flex container */
+  flex-direction: column; /* Define a direção dos itens como vertical (coluna) */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  padding: 20px; /* Adiciona espaçamento interno de 20px */
+  padding-top: 0; /* Remove o espaçamento superior */
+  font-size: 22px; /* Define o tamanho da fonte como 16px */
+  margin-top: 230px; /* Adiciona margem superior de 230px */
+
+  .registerForm {
+    display: flex; /* Define o elemento como um container flexível */
+    flex-direction: column; /* Define a direção dos itens como coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    padding: 10px; /* Adiciona espaçamento interno de 10px */
+    gap: 25px; /* Define o espaçamento vertical entre os itens como 25px */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    background: lavender; /* Define a cor de fundo como lavanda */
+    width: 390px; /* Define a largura como 380px */
+    height: 230px; /* Define a altura como 210px */
+    justify-content: center; /* Centraliza os itens verticalmente */
+
+    .name {
+      display: flex; /* Define o elemento como um container flexível */
+      gap: 10px; /* Define o espaçamento entre os elementos como 10px */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+      font-weight: 500; /* Define a espessura da fonte como 500 */
+    }
+
+    .email {
+      display: flex; /* Define o elemento como um container flexível */
+      gap: 10px; /* Define o espaçamento entre os elementos como 10px */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+      font-weight: 500; /* Define a espessura da fonte como 500 */
+    }
+
+    .password {
+      display: flex; /* Define o elemento como um container flexível */
+      gap: 10px; /* Define o espaçamento entre os elementos como 10px */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+      font-weight: 500; /* Define a espessura da fonte como 500 */
+    }
+
+    .registerButton {
+      width: 50%; /* Define a largura como 50% */
+      padding: 10px; /* Adiciona espaçamento interno de 10px */
+      border: none; /* Remove a borda */
+      background-color: lightgray; /* Define a cor de fundo como cinzento claro */
+      color: black; /* Define a cor do texto como preto */
+      font-weight: bold; /* Define a espessura da fonte como negrito */
+      cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+      border-radius: 3px; /* Adiciona bordas arredondadas */
+    }
+  }
+}
+
+.favBar {
+  display: flex; /* Define o elemento como um container flexível */
+  flex-direction: column; /* Define a direção dos itens como coluna */
+  margin-left: 180px; /* Adiciona margem esquerda de 180px */
+  margin-top: 10px; /* Adiciona margem superior de 10px */
+  justify-content: flex-start; /* Alinha os itens ao topo */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+
+  div {
+    display: flex; /* Define o elemento como um container flexível */
+    flex-direction: row; /* Define a direção dos itens como linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 10px; /* Define o espaçamento entre os itens como 10px */
+  }
+  .favButton {
+    width: 100px; /* Define a largura como 50% */
+    padding: 10px; /* Adiciona espaçamento interno de 10px */
+    border: none; /* Remove a borda */
+    background-color: lightpink; /* Define a cor de fundo como cinzento claro */
+    color: black; /* Define a cor do texto como preto */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+    border-radius: 3px; /* Adiciona bordas arredondadas */
+    height: 40px;
+    position: relative;
+  }
+  .removeButton {
+    padding: 7px; /* Adiciona espaçamento interno de 7px */
+    border: none; /* Remove a borda */
+    background-color: #f47174; /* Define a cor de fundo como #f47174 */
+    color: black; /* Define a cor do texto como preto */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+    border-radius: 50%; /* Adiciona bordas arredondadas */
+    position: absolute; /* Define a posição como absoluta */
+    margin-left: 90px; /* Adiciona margem esquerda de 90px */
+    margin-bottom: 30px; /* Adiciona margem inferior de 30px */
+    font-size: 8px; /* Define o tamanho da fonte como 8px */
+  }
+}
